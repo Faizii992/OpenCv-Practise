@@ -2,7 +2,7 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 
 
-img_bgr=cv.imread("Images/catto.webp",1)
+img_bgr=cv.imread("Images/catto.jpg",1)
 img_rgb= cv.cvtColor(img_bgr, cv.COLOR_BGR2RGB)
 
 faceCascade=cv.CascadeClassifier("XML files/haarcascade_frontalcatface.xml")
